@@ -8,15 +8,16 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 615px;
+  grid-template-rows: 410px;
+  position: relative;
 }
 
 .container {
   width: 100%;
   height: 100%;
+  position: absolute;
   display: grid;
   grid-template-columns: 1fr 205px 205px 205px 1fr;
   grid-template-rows: 1fr 205px 205px 1fr;
