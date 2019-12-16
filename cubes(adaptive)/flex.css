@@ -124,7 +124,7 @@ body {
   }
 }
 
-@media only screen (orientation: landscape) {
+@media only screen and (orientation: landscape) {
   body {
     width: auto;
     height: auto;
