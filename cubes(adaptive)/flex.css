@@ -1,1 +1,131 @@
+body {
+  font-family: 'Roboto Mono';
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-image:url('/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+}
+.container {
+  width: 615px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.widget_block {
+  margin: 0;
+  width: 205px;
+  height: 205px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.widget-image_block {
+  max-width: 100%;
+  width: 100%;
+  height: 50%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  
+}
+.widget_info {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.widget-image {
+  margin-top: 45px;
+  margin-left: 60px;
+}
+.widget_info_text {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+}
+.additional-info_block {
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #b43255;
+}
+.additional-info_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 16px 8px; 
+}
+.widget-image_small-size {
+  margin-top: 20px;
+  margin-left: 67px;
+}
+.widget-first-item {
+  background-color: #06b3db;
+  margin: 0;
+}
+.widget-second-item {
+  background-color: #4ed486;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.widget-third-item {
+  background-color: #6139f6;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.widget-fourth-item {
+  background-color: #e3b63d;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.widget-fifth-item {
+  background-color: #dc3d66;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.widget-sixth-item {
+  background-color: #bd54cd;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ @media only screen and (min-width : 320px) and (max-width : 480px)   {
+  body {
+    width: auto;
+    height: auto;
+    overflow: auto;
+  }
+  .container {
+    flex-direction: column;
+  }
+}
+@media only screen (orientation: landscape) {
+  body {
+    width: auto;
+    height: auto;
+    overflow: auto;
+  }
+  .container {
+    flex-direction: row;
+  }
+}
 
