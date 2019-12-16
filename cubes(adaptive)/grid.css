@@ -222,35 +222,29 @@ body {
   .widget-first-item {
     grid-row: 2;
     grid-column: 2;
-    background-color: #06b3db;
   }
 
   .widget-second-item {
     grid-row: 2;
     grid-column: 3;
-    background-color: #4ed486;
   }
 
   .widget-third-item {
     grid-row: 2;
     grid-column: 4;
-    background-color: #6139f6;
   }
 
   .widget-fourth-item {
     grid-row: 2;
     grid-column: 5;
-    background-color: #e3b63d;
   }
 
   .widget-fifth-item {
-    background-color: #dc3d66;
     grid-row: 2;
     grid-column: 6;
   }
 
   .widget-sixth-item {
-    background-color: #bd54cd;
     grid-row: 2;
     grid-column: 7;
   }
