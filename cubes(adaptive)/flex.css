@@ -90,37 +90,26 @@ body {
 
 .widget-first-item {
   background-color: #06b3db;
-  margin: 0;
 }
 
 .widget-second-item {
   background-color: #4ed486;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .widget-third-item {
   background-color: #6139f6;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .widget-fourth-item {
   background-color: #e3b63d;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .widget-fifth-item {
   background-color: #dc3d66;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .widget-sixth-item {
   background-color: #bd54cd;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
